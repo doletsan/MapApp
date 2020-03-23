@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="delete_colour">#FF1A1A</color>
+    <color name="neutral_colour">#A6A6A6</color>
+    <color name="add_colour">#00E600</color>
+
+    <color name="header_background">#0000e6</color>
+    <color name="header_Color">#ffffff</color>
+    <color name="table_default">#f5f5f5</color>
+    <color name="table_second">#add8e6</color>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Table"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+        <TextView
+            android:id="@+id/table_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="@string/table_title"
+            android:textSize="24sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/table_header">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/header_background"
+                android:gravity="center"
+                android:text="@string/table_id"
+                android:textColor="@color/header_Color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:background="@color/header_background"
+                android:gravity="center"
+                android:text="@string/table_name"
+                android:textColor="@color/header_Color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:background="@color/header_background"
+                android:gravity="center"
+                android:text="@string/table_desc"
+                android:textColor="@color/header_Color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/header_background"
+                android:gravity="center"
+                android:text="@string/table_lat"
+                android:textColor="@color/header_Color"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/header_background"
+                android:gravity="center"
+                android:text="@string/table_lng"
+                android:textColor="@color/header_Color"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>

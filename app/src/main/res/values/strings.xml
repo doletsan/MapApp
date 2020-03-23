@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MapDemo</string>
+    <string name="title_activity_maps">MapDemo</string>
+
+    <string name="view_info">Information</string>
+    <string name="view_change">Change View</string>
+
+    <string name="add_button">Add Location</string>
+    <string name="delete_state">Delete</string>
+    <string name="neutral_state">---</string>
+    <string name="add_state">Add</string>
+
+    <string name="form_name">Name</string>
+    <string name="form_desc">Description</string>
+    <string name="form_submit">Submit</string>
+    <string name="form_cancel">Cancel</string>
+
+    <string name="table_title">Current Map Markers</string>
+    <string name="table_id">ID</string>
+    <string name="table_name">Name</string>
+    <string name="table_desc">Description</string>
+    <string name="table_lat">Lat</string>
+    <string name="table_lng">Lng</string>
+
+    <string name="info_title">Information</string>
+    <string name="info_purpose">The purpose of this app is to track user pinned markers and store them in a database.</string>
+    <string name="info_instructions">
+        On the main map view, there is a button that can be pressed to switch between three states: DELETE, ---, ADD.\n\nChange to the DELETE state and press on a marker. Respond to the prompt to remove the marker from the database.\nChange to the --- state to view markers without worrying about any gesture actions.\nChange to the ADD state and press on an empty position on the map. Fill in the required information when the popup window is visible. The marker will then be added to the database.\n\nAdditionally, the data can be viewed in map or table form. To switch, press the 3 dots at the top and select Change View from the items.
+    </string>
+    <string name="info_contact">Thank you for testing my demo out. My name is Dole Tsan, you can contact me at DoleTsan@gmail.com or view my work at https://github.com/doletsan</string>
+</resources>
