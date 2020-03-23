@@ -252,6 +252,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 db.deleteDataByID(currMarker.tag as Int)
                 currMarker.remove()
                 currentListMarkers.remove(currMarker)
+                break
             }
         }
 
